@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compute It - Uji Logika Kodemu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="game-container">
+            <div class="header">
+                <h1 class="title">Compute It!</h1>
+                <p class="description">Apa output dari kode di bawah ini?</p>
+            </div>
+            
+            <pre><code id="code-snippet" class="language-js"></code></pre>
+            
+            <p id="question" class="question-text"></p>
+
+            <div id="choices-container" class="choices">
+                </div>
+
+            <div id="feedback" class="feedback-message"></div>
+
+            <button id="next-button" class="btn btn-next" style="display: none;">Lanjut →</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
